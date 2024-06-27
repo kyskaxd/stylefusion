@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #EAD1F5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    font-family: Nunito;
+    color: #A05EB7;
+    font-size: 23px;
+}
+main{
+    display: flex;
+    background-color: white;
+    width: 1800px;
+    
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    justify-content: center;
+}
+.gram{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.gr-t{
+    font-size: 35px;
+}
+.dip{
+    width: 500px;
+    height: 345px;
+}
+.dip-all{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+.create{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+.ooo{
+    display: flex;
+    gap: 20px;
+}
+.avat-t{
+    text-align: left;
+    width: 600px;
+    height: 200px;
+}
+.map{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.mapp{
+    display: flex;
+    gap: 456px;
+}
+.map-t{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}

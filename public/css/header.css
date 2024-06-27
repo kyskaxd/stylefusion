@@ -1,0 +1,143 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #EAD1F5;
+  display: flex;
+  justify-content: center;
+  
+  
+} 
+p{
+  font-family: Nunito;
+  color: #A05EB7;
+  
+}
+a{
+  text-decoration: none;
+  
+}
+.header-major{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  
+  width: 1830px;
+  height: 135px;
+  border-radius: 10px;
+  margin-top: 15px;
+ 
+  z-index: 2;
+  position: relative;
+  box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.logo-nazv{
+  display: flex;
+  align-items: center;
+  margin-right: 525px;
+  width: 328px;
+  justify-content: center;
+}
+.logo-img{
+  width: 100px;
+  height: 93.5px;
+}
+.nazv{
+  font-size: 40px;
+  margin-top: 11px;
+  margin-left: 7px;
+  text-decoration:none;
+}
+
+.regilog{
+  display: flex;
+  margin-left: 525px;
+  gap: 20px;
+}
+.ril-r{
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  background-color:#EAD1F5;
+  padding: 11px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.ril-r-auth{
+  display: flex;
+  width: 340px;
+  justify-content: center;
+  background-color:#EAD1F5;
+  padding: 11px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.25);
+  
+}
+.ril-l{
+  display: flex;
+  width: 140px;
+  justify-content: center;
+  background-color:#EAD1F5;
+  padding: 11px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.ril-t{
+  font-size: 22px;
+  align-self: center;
+
+  
+}
+.header-minor{
+  display: flex;
+  z-index: 1;
+  width: 1830px;
+  height: 83px;
+  background-color: #D9B6DF;
+  margin-top: -12px;
+  border-radius: 10px;
+  justify-content: center;
+  
+  transform: translateY(0px);
+  transition: transform 0.3s;
+}
+.pop{
+  display: flex;
+  gap: 80px;
+  margin-left: -30px;
+  margin-top: 20px;
+}
+.box{
+  box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.disp{
+  
+  transform: translateY(-83px);
+  transition: transform 0.7s;
+}
+.strup{
+  background-image: url('../img/str-up.jpg');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  width: 24px;
+  height: 20px;
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
+.strdown{
+  background-image: url('../img/str-down1.jpg');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  width: 24px;
+  height: 20px;
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
