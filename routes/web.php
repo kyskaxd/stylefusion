@@ -24,7 +24,7 @@ Route::view('/livingroom', 'search.livingroom')->name('livingroom');
 
 Route::view('/search', 'search')->name('search');
 Route::view('/profile', 'profile')->middleware('auth')->name('profile');
-Route::view('/com', 'comment')->middleware('auth')->name('comment');
+Route::view('/', 'main');
 Route::view('/req', 'request')->middleware('auth')->name('request');
 Route::view('/main', 'main')->name('main');
 Route::get('/reg', [RegisterController::class, 'create'])->middleware('guest')->name('register');

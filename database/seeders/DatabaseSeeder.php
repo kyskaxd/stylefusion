@@ -11,13 +11,4 @@ class DatabaseSeeder extends Seeder
      *
      * @return void
      */
-    public function run() {
-        $this->call(CategoryTableSeeder::class);
-        $this->command->info('Таблица категорий загружена данными!');
-
-        
-
-        $this->call(ProductTableSeeder::class);
-        $this->command->info('Таблица товаров загружена данными!');
-    }
 }
