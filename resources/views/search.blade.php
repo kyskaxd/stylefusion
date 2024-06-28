@@ -14,7 +14,22 @@
 <body>
     @yield('head')
     <p>Каталог товаров</p>
+    <div class="all"></div>
+    <div class="product-grid">
+        @foreach($products as $product)
+            <div class="product-item">
+                <img src="{{ $product->path_product }}" class="card_img" alt="картинка не найдена">
+                <p> {{ $product->name_product }}</p>
 
+                
+
+                <a href="{{ route('product', ['id' => $product->id  ]) }}"><button type="submit" class="podrob">
+                        <span class="text">Подробнее</span>
+                    </button></a>
+            </div>
+        @endforeach
+    </div>
+    
     
 
 </body>

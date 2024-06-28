@@ -57,7 +57,7 @@
           <a href="{{route('about')}}"><div class="ril-r">
             <p class="ril-t">О нас</p>
           </div></a>
-          <a ><div class="ril-r">
+          <a href="{{route('admin')}}"><div class="ril-r">
             <p class="ril-t">Админ</p>
           </div></a>
         </div>
