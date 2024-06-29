@@ -21,6 +21,7 @@ Route::view('/bathroom', 'search.bathroom')->name('bathroom');
 Route::view('/kitchen', 'search.kitchen')->name('kitchen');
 Route::view('/bedroom', 'search.bedroom')->name('bedroom');
 Route::view('/livingroom', 'search.livingroom')->name('livingroom');
+
 Route::get('/search', [ProductController::class, 'AllProduct'])->name('search');
 Route::get('/search/{id}', [ProductController::class, 'product'])->name('product');
 Route::view('/profile', 'profile')->middleware('auth')->name('profile');
@@ -35,3 +36,4 @@ Route::post('/login', [LoginController::class, 'store']);
 Route::get('/admin', [ProductController::class, 'admin'])->name('admin');
 Route::post('/product', [ProductController::class, 'addProduct'])->name('addProduct');
 Route::post('/category', [ProductController::class, 'addCategory'])->name('addCategory');
+

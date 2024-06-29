@@ -35,7 +35,7 @@
         <div class="foot">
             <p class="foot-t">Популярные Дизайны</p>
             <div>
-                aerthgeqarth
+                
             </div>
         </div>
     </main>
